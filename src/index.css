@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.container {
+		@apply bg-white shadow-md border-[3px] border-gray-500 inline-block p-4 rounded-lg;
+	}
+
+	.input-comment {
+		@apply border-[2px] border-gray-400 w-full p-3 rounded placeholder-black text-lg outline-none focus:border-gray-800;
+	}
+}
